@@ -1,0 +1,35 @@
+         * {
+         box-sizing: border-box;
+     }
+     
+     body {
+         margin: 0;
+     }
+     
+     .rowafter {
+         content: "";
+         display: table;
+         clear: both;
+     }
+     
+     .colum-1 {
+         width: 100%;
+         float: left;
+     }
+     
+     .colum-2 {
+         width: 50%;
+         float: left;
+     }
+     
+     .colum-3 {
+         width: 33.33%;
+         float: left;
+     }
+     
+     .colum-4 {
+         width: 25%;
+         float: left;
+     }
+     
+     @media only screen and (max-width: 600px) {
